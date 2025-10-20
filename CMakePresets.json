@@ -2,19 +2,19 @@
     "version" : 4,
     "configurePresets": [
         {
-            "name" : "editor-config",
-            "displayName": "OpenRenderer Editor config",
+            "name" : "demo-config",
+            "displayName": "OpenRenderer Demo config",
             "generator" : "Ninja",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE" : "Debug",
-                "BUILD_EDITOR" : "ON"
+                "BUILD_DEMO" : "ON"
             }
         }
     ],
     "buildPresets": [
         {
-            "name" : "editor-config",
-            "configurePreset": "editor-config",
+            "name" : "demo-config",
+            "configurePreset": "demo-config",
             "displayName": "Debug Build Preset"
         }
     ]

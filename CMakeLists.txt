@@ -8,8 +8,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(renderer)
 
-option(BUILD_EDITOR "Build OpenRenderer Editor" OFF)
+option(BUILD_DEMO "Build OpenRenderer Demo" OFF)
 
-if (BUILD_EDITOR)
-    add_subdirectory(editor)
+if (BUILD_DEMO)
+    add_subdirectory(demo)
 endif()
